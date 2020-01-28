@@ -289,13 +289,12 @@ def update_score_file(scores_file_path, dict_scores):
                 filout.write(str(j) + ";") # Parcourt la liste et écrit chacun des scores à la suite du niveau correspondant
             filout.write("\n") # Saut à la ligne avant de passer au niveau suivant
 
-
 # Constantes à utiliser
 DISTANCE_ENTRE_CASE = 32  # distance par rapport à l'autre case
 VALEUR_COUP = 50
 X_PREMIERE_CASE = 20
 Y_PREMIERE_CASE = 20
 
-# Ne pas modifier !
+
 if __name__ == '__main__':
     os.system("fourni\simulateur.py")
